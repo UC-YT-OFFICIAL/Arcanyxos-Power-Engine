@@ -24,7 +24,7 @@
 
 ## 📱 Requirements
 
-- **Platform:** MediaTek (mt6375 or compatible PMIC sysfs layout)
+- **Platform:** MediaTek or compatible PMIC sysfs layout)
 - **Root:** KernelSU (recommended) or Magisk 20.4+
 - **WebUI:** KernelSU app (Launch button)
 - **Battery:** MTK charging with `primary_chg` + `enable_sc` + `enable_power_path` sysfs nodes
