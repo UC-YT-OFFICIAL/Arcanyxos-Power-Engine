@@ -2,7 +2,7 @@
 
 **Intelligent charging control for MediaTek devices.** A KernelSU/Magisk module that manages charge-limit suspension, temperature protection, and charging modes — with a built-in WebUI for live monitoring and control.
 
-![Platform](https://img.shields.io/badge/MTK-mt6375-blue) ![Status](https://img.shields.io/badge/r28-stable-brightgreen) ![License](https://img.shields.io/badge/license-MIT-orange)
+![Platform](https://img.shields.io/badge/MTK-mt6375-blue) ![Status](https://img.shields.io/badge/r28-stable-brightgreen) ![License](https://img.shields.io/badge/license-Proprietary-red)
 
 ---
 
@@ -24,12 +24,12 @@
 
 ## 📱 Requirements
 
-- **Device:** MediaTek MT6878 (mt6375) — tested on Nothing CMF Phone 1 (Tetris)
+- **Platform:** MediaTek (mt6375 or compatible PMIC sysfs layout)
 - **Root:** KernelSU (recommended) or Magisk 20.4+
 - **WebUI:** KernelSU app (Launch button)
 - **Battery:** MTK charging with `primary_chg` + `enable_sc` + `enable_power_path` sysfs nodes
 
-*On unsupported devices the module reports "MISS" for missing nodes and stays safe.*
+*On unsupported layouts the module reports "MISS" for missing nodes and stays safe.*
 
 ---
 
@@ -139,7 +139,7 @@ Every publish ZIP ships `manifest.sha256` (sorted `<sha256> <relpath>`) signed w
 - **KernelSU** — modules framework
 - **Nothing / MediaTek** — PMIC sysfs paths
 
-**License:** MIT.
+**License:** Proprietary — see `LICENSE` in module root.
 
 ---
 
